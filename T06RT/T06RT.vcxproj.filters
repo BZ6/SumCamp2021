@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{1039b471-bec1-45c5-bd98-5171182ab4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows support">
+      <UniqueIdentifier>{8a3ba5a8-b4d0-4cd0-89e0-8161770f0a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing">
+      <UniqueIdentifier>{d1f86ab4-89d7-4cf7-ac78-6a08972b7323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing\Frame buffer">
+      <UniqueIdentifier>{14b24a86-1500-485c-9bda-d656136686cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing\Shapes">
+      <UniqueIdentifier>{a839251c-03b1-4df3-b4e0-b03ac72ffe1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing\Lights">
+      <UniqueIdentifier>{c95fa5ac-e537-4ded-9c20-5b5cc1da2f40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\win.cpp">
+      <Filter>Source Files\Windows support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\winmsg.cpp">
+      <Filter>Source Files\Windows support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_camera.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mthdef.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_ray.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Windows support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\fb\frame.h">
+      <Filter>Source Files\Ray tracing\Frame buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\rt.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\shapes\sphere.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\shapes\plane.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\shapes\shapes.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\raytracer.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\lights\lights.h">
+      <Filter>Source Files\Ray tracing\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\lights\point.h">
+      <Filter>Source Files\Ray tracing\Lights</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

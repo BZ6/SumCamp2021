@@ -1,0 +1,14 @@
+Size:
+W: 1536;
+H: 768;
+Name of image:
+Pod;
+Movement:
+RotateY: 10;
+RotateR: -10;
+MoveX: 0.5;
+MoveZ: -0.5;
+Append:
+sphere: (0, 0, -0.5) 0.5;
+sphere: (1, 0, -1.5) 0.5;
+plane: (0, 1, 0) 0.5;
